@@ -18,3 +18,6 @@ RUN apt-get update && apt-get install -y     \
   doxygen                                    \
   doxygen-doc                                \
   doxygen-gui
+
+
+RUN apt-get install -y libssl1.0-dev nodejs-dev node-gyp npm
